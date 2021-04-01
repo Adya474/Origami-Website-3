@@ -1,0 +1,76 @@
+h1
+{
+    margin: 30px;
+    padding-left: 50px;
+
+}
+
+*{
+    background-color: mediumpurple;
+}
+
+
+.header
+{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2
+{
+    display:flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.header2 a{
+    margin-right: 30px;
+}
+
+.grid
+{
+
+    background-color: mediumpurple;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.grid2 {
+    position:relative;
+}
+
+.grid2 p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform : translate(-50%,-50%);
+    opacity: 0
+}
+
+.grid2:hover p{
+    
+    opacity: 1;
+
+}
+
+.grid2:hover img{
+
+    opacity: 0.3;
+
+}
+
+body
+{
+    background-color:mediumpurple;
+}
+
+a:link {
+    color:blue;
+}
+
+a:visited{
+
+    color:blueviolet;
+}
