@@ -1,76 +1,29 @@
-h1
-{
-    margin: 30px;
-    padding-left: 50px;
+.pics{
 
-}
-
-*{
-    background-color: mediumpurple;
-}
-
-
-.header
-{
-
-    display: flex;
-    justify-content: space-between;
-}
-
-.header2
-{
-    display:flex;
+    display: flexbox;
     justify-content: space-evenly;
-    
-
+    border-color: darkslategray;
 }
 
-.header2 a{
-    margin-right: 30px;
-}
+a:link{
 
-.grid
-{
+    color:darkblue
 
-    background-color: mediumpurple;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.grid2 {
-    position:relative;
-}
-
-.grid2 p{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform : translate(-50%,-50%);
-    opacity: 0
-}
-
-.grid2:hover p{
-    
-    opacity: 1;
-
-}
-
-.grid2:hover img{
-
-    opacity: 0.3;
-
-}
-
-body
-{
-    background-color:mediumpurple;
-}
-
-a:link {
-    color:blue;
 }
 
 a:visited{
 
-    color:blueviolet;
+    color:blueviolet
+
+}
+
+*{
+
+    background-color:greenyellow;
+
+    margin-top: 3%;
+
+    margin-left: 3%;
+
+    margin-right: 3%;
 }
